@@ -1,0 +1,11 @@
+--- box-sdk-gen-0.4.0.orig/setup.py	2024-02-14 08:38:33.776913585 -0600
++++ box-sdk-gen-0.4.0/setup.py	2024-02-14 08:38:47.847264689 -0600
+@@ -4,7 +4,7 @@
+ 
+ 
+ def main():
+-    install_requires = ['requests', 'requests_toolbelt', 'urllib3<2']
++    install_requires = ['requests', 'requests_toolbelt']
+     tests_require = ['pytest', 'pytest-timeout', 'pytest-cov']
+     dev_requires = ['tox']
+     jwt_requires = ['pyjwt>=1.7.0', 'cryptography>=3']
