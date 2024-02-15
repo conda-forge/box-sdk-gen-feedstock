@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/box-sdk-gen-{{ version }}.tar.gz
   sha256: e2409b3612019587d9c609d0f7a1399bcdb7aee2164c7c498e336f1d12b58a4a
-  patches:
-    - 001_setup_urllib3.patch
 
 build:
   noarch: python
