@@ -1,5 +1,5 @@
 {% set name = "box-sdk-gen" %}
-{% set version = "0.6.3" %}
+{% set version = "0.6.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/box-sdk-gen-{{ version }}.tar.gz
-  sha256: ae720dd1b0c090d42b02af92cfeea30460d39ab7eab8d6e813ba1c81e0ad9775
+  sha256: 048e8478b27212d8a4c7d66f9e84a0de75ee898ad06f09ad5a53e4ac62b2f8c5
 
 build:
   noarch: python
